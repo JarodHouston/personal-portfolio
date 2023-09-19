@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/personal-portfolio/static/css/main.00841beb.css",
+    "main.js": "/personal-portfolio/static/js/main.f01726dc.js",
+    "static/js/787.a2cb61a6.chunk.js": "/personal-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/wavy-background.png": "/personal-portfolio/static/media/wavy-background.2fa5723d853eb6148cc7.png",
+    "static/media/kerckhoff-pic.jpg": "/personal-portfolio/static/media/kerckhoff-pic.2f29c97df1f50ed43856.jpg",
+    "static/media/royce-awaken-me.jpg": "/personal-portfolio/static/media/royce-awaken-me.981e20c4ee59cd99acba.jpg",
+    "static/media/ToDoListImage.png": "/personal-portfolio/static/media/ToDoListImage.57a4de1ce93af1e0601c.png",
+    "static/media/woodoku-box-image.png": "/personal-portfolio/static/media/woodoku-box-image.1df8ada73282b1a7c4e2.png",
+    "static/media/2048-spinoff-image.png": "/personal-portfolio/static/media/2048-spinoff-image.5523e93fd72acb82dfb3.png",
+    "static/media/BattleshipImage.png": "/personal-portfolio/static/media/BattleshipImage.87b8e08472a9928c7862.png",
+    "static/media/logo.svg": "/personal-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/personal-portfolio/index.html",
+    "main.00841beb.css.map": "/personal-portfolio/static/css/main.00841beb.css.map",
+    "main.f01726dc.js.map": "/personal-portfolio/static/js/main.f01726dc.js.map",
+    "787.a2cb61a6.chunk.js.map": "/personal-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.00841beb.css",
+    "static/js/main.f01726dc.js"
+  ]
+}
