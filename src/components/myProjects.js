@@ -7,7 +7,7 @@ export default function MyProjects(props) {
 
   return (
     <div>
-      <h2 id="project-header">Solo Projects</h2>
+      <h2 id="project-header">Projects</h2>
       <div className="project-container">{projects}</div>
     </div>
   );
