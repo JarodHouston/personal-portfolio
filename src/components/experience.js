@@ -1,18 +1,15 @@
 import { useInView } from "react-intersection-observer";
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 
-export default function Experience({ key, item, testFunction }) {
-  const [seal, setSeal] = useState(0);
+export default function Experience({ key, item, currentCardView }) {
   const [ref, inView] = useInView({
     threshold: 0,
   });
 
-  const altProps = testFunction;
   useEffect(() => {
-    if (testFunction) {
-      testFunction(item.num, inView);
+    if (currentCardView) {
+      currentCardView(item.num, inView);
     }
-    setSeal((seal) => seal + 1);
   }, [inView]);
 
   return (
@@ -29,7 +26,7 @@ export default function Experience({ key, item, testFunction }) {
         <h6>{item.position}</h6>
         <p>{item.date}</p>
       </div>
-      <p onClick={() => testFunction()} className="experience-card-right">
+      <p onClick={() => currentCardView()} className="experience-card-right">
         {item.description}
       </p>
     </div>

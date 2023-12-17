@@ -2,8 +2,18 @@ import TwentyFortyEightImage from "./images/2048-spinoff-image.png";
 import WoodokuImage from "./images/woodoku-box-image.png";
 import ToDoListImage from "./images/ToDoListImage.png";
 import BattleshipImage from "./images/BattleshipImage.png";
+import TasteUCLAImage from "./images/tasteUCLAlogo.png";
 
 export default [
+  {
+    id: 5,
+    name: "tasteUCLA",
+    description:
+      "A place where UCLA students can review food from ASUCLA restaurants on campus!",
+    image: TasteUCLAImage,
+    altText: "tasteUCLA logo",
+    link: "https://github.com/JENCS/TasteUCLA",
+  },
   {
     id: 1,
     name: "2048 Spinoff",

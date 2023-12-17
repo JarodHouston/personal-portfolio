@@ -1,34 +1,27 @@
 import Experience from "./experience.js";
 import { VscTriangleRight } from "react-icons/vsc";
 import { VscTriangleLeft } from "react-icons/vsc";
-import { useInView } from "react-intersection-observer";
-import { createRef, useRef, useState } from "react";
+import { useState } from "react";
 
 export default function MyExperiences(props) {
-  // const [ref1, view1] = useInView();
-  // const elementsRef = useRef(
-  //   props.experience.map(() => {
-  //     createRef();
-  //   })
-  // );
-  const [testSeal, setTestSeal] = useState(0);
   let num = 0;
   props.experience.map((item) => {
     num++;
   });
 
-  const [values, setValues] = useState(Array(num).fill(false));
+  const [cardView, setCardView] = useState(Array(num).fill(false));
 
-  const testFunction = (num, viewState) => {
-    // setTestSeal((testSeal) => testSeal + num);
-    const newValues = values.map((value, i) => {
+  const currentCardView = (num, viewState) => {
+    const newCardView = cardView.map((value, i) => {
       return i === num - 1 ? viewState : value;
     });
-    setValues(newValues);
+    setCardView(newCardView);
   };
 
   const experiences = props.experience.map((item, index) => {
-    return <Experience key={item.id} item={item} testFunction={testFunction} />;
+    return (
+      <Experience key={item.id} item={item} currentCardView={currentCardView} />
+    );
   });
 
   return (
@@ -42,7 +35,7 @@ export default function MyExperiences(props) {
             onClick={() => {
               let idNum = -1;
               for (let i = num - 1; i > 0; i--) {
-                if (values.at(i)) {
+                if (cardView.at(i)) {
                   idNum = i;
                   break;
                 }
@@ -68,7 +61,7 @@ export default function MyExperiences(props) {
             onClick={() => {
               let idNum = -1;
               let index = 0;
-              values.every((value) => {
+              cardView.every((value) => {
                 if (value) {
                   idNum = index + 2;
                   return false;

@@ -1,5 +1,6 @@
 import AwakenImage from "./images/AwakenImage.jpeg";
 import UPEImage from "./images/UPEImage.jpeg";
+import DevXImage from "./images/DevXImage.webp";
 
 export default [
   {
@@ -27,5 +28,18 @@ export default [
       "UPE is an invite-only honor society for the Computing & Information Disciplines. I was invited to induct into the organization during spring quarter of my freshman year for being at the top of my Computer Science class. As an inductee, I tutored other UCLA students in Computer Science I and II, Multivariable Calculus, and Physics.",
     ref: "ref2",
     view: "inView2",
+  },
+  {
+    id: "3",
+    num: 3,
+    name: "DevX",
+    position: "UI/UX Intern",
+    image: DevXImage,
+    altText: "DevX logo",
+    date: "October 2023 - Present",
+    description:
+      "DevX is a product development organization at UCLA that creates technology to address problems within the school's community and beyond. I am currently a UI/UX intern and am learning how to design in Figma, conduct user research, and analyze collected data.",
+    ref: "ref3",
+    view: "inView3",
   },
 ];
