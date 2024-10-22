@@ -27,7 +27,7 @@ export default function MyExperiences(props) {
   return (
     <div>
       <div id="experience-container">
-        <h2>Experience</h2>
+        <h2>Experience / Leadership</h2>
         <div className="experience-grid">{experiences}</div>
         <div className="experience-btn-container">
           <button

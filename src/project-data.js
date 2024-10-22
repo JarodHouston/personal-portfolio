@@ -3,8 +3,18 @@ import WoodokuImage from "./images/woodoku-box-image.png";
 import ToDoListImage from "./images/ToDoListImage.png";
 import BattleshipImage from "./images/BattleshipImage.png";
 import TasteUCLAImage from "./images/tasteUCLAlogo.png";
+import HobbyHopperImage from "./images/HobbyHopperLogo.png";
 
 export default [
+  {
+    id: 6,
+    name: "Hobby Hopper",
+    description:
+      "Want to pick up a new hobby but don't know where to start? Scroll through local activities and events to find what you're looking for!",
+    image: HobbyHopperImage,
+    altText: "Hobby Hopper logo",
+    link: "https://github.com/JarodHouston/Behavior-App",
+  },
   {
     id: 5,
     name: "tasteUCLA",

@@ -17,14 +17,14 @@ export default function AboutMe() {
         </div>
         <div className="about-right">
           <p>
-            I am a 2nd year Computer Science major at UCLA from Los Altos,
-            California. I enjoy hiking in the mountains, singing pop songs,
-            traveling to new places, and hanging out with friends. My passion
-            for coding stemmed from my interest in game development back in
-            elementary school when we learned how to use Scratch. I joined the
-            Hack Club at my high school where I learned HTML, CSS, and Python.
-            Since then, I have also coded in Java, C++, JavaScript, and more
-            recently, React.
+            I am a 3rd year Computer Science major at UCLA from Los Altos,
+            California. This past summer, I interned at Snowflake as a
+            Technology Alliances Intern where I leveraged my programming
+            knowledge to build a dashboard for the Partner Sales team to assist
+            them in driving value. At UCLA, I am involved in numerous clubs
+            including DevX, ACM TeachLA, UPE, and Awaken A Cappella. In my free
+            time, I enjoy singing, hiking, going out, and watching Netflix to
+            name a few.
           </p>
         </div>
       </div>
